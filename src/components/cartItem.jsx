@@ -44,16 +44,16 @@ const CartItem = (props) => {
       <p>
         $<span>{detail.price * quantity}</span>
       </p>
-      <div className="w-20 flex justify-between">
+      <div className="w-20 flex justify-between gap-5">
         <button
-          className="bg-gray-200 rounded-full w-6 h-6 text-cyan-600"
+          className="bg-gray-200 rounded-full w-7 h-7 text-cyan-600"
           onClick={handleMinusQuantity}
         >
           -
         </button>
         <span>{quantity}</span>
         <button
-          className="bg-gray-200 rounded-full w-6 h-6 text-cyan-600"
+          className="bg-gray-200 rounded-full w-7 h-7 text-cyan-600"
           onClick={handlePlusQuantity}
         >
           +

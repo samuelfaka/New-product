@@ -21,7 +21,7 @@ const CartTab = ({handleOrderPopup}) => {
 
   return (
     <div
-      className={`fixed top-0 right-0 bg-gray-900 shadow-2xl w-[90vw] lg:w-[30vw] h-[100vh] grid grid-rows-[60px_1fr_60px]
+      className={`fixed top-0 right-0 bg-gray-900 shadow-2xl w-[90vw] lg:w-[30vw] h-[95vh] grid grid-rows-[60px_1fr_60px]
     transform transition-transform duration-700
     ${statusTab === false ? 'translate-x-full' : ''}`}
     >
