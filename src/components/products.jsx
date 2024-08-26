@@ -1,4 +1,4 @@
-import Images1 from '../assets/waffle.jpg';
+
 import Images2 from '../assets/creme.jpg';
 import Images3 from '../assets/macaron.jpg';
 import Images4 from '../assets/tiramisu.jpg';
@@ -9,15 +9,7 @@ import Images8 from '../assets/brownie.jpg';
 import Images9 from '../assets/panna.jpg';
 
 export const products = [
-    {
-        id: 1,
-        title: "Waffle",
-        name: "Waffle with Berries",
-        price: "6.50",
-        img: Images1,
-        description: "A is a warm, golden-brown waffle topped with a mix of fresh berries like strawberries, blueberries, and raspberries. The juicy berries add a burst of sweet and tangy flavor, creating a delicious contrast with the crisp and fluffy waffle. This dish is often served with a drizzle of syrup or a dollop of whipped cream, making it a delightful breakfast or dessert option.",
-        slug: "waffle-with-berries"
-    },
+   
     {
         id: 2,
         title: "Crème Brûlée",
